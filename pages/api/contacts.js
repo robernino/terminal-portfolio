@@ -10,11 +10,11 @@ export default async function handler(req, res) {
   await runMiddleware(req, res, cors);
   if (req.method === "GET") {
     const contactMediums = [
-      {
-        medium: "<br />github",
-        username: "<br />robernino",
-        link: "https://github.com/robernino",
-      },
+      // {
+      //   medium: "<br />github",
+      //   username: "<br />robernino",
+      //   link: "https://github.com/robernino",
+      // },
       {
         medium: "email",
         username: "robert_niru@hotmail.com",
